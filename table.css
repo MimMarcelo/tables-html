@@ -1,0 +1,14 @@
+table{
+    border-style: solid;
+    border-width: 2px;
+    border-color: darkslateblue;
+    border-collapse: collapse; /* Junta as bordas das células */
+}
+td, th{
+    border-style: solid;
+    border-width: 2px;
+    border-color: darkblue;
+}
+th{
+    border-color: brown;
+}
