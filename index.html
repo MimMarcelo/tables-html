@@ -1,36 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas</title>
 
-    <link rel="stylesheet" href="table.css">
+    <link rel="stylesheet" href="estilo/table.css">
 
 </head>
+
 <body>
     <table>
-        <tr>
-            <th>Música</th>
-            <th>Banda</th>
-        </tr>
-        <tr>
-            <td>Pulsos</td>
-            <td>Pitty</td>
-        </tr>
-        <tr>
-            <td>Admirável chip novo</td>
-            <td>Pitty</td>
-        </tr>
-        <tr>
-            <td>Temporal</td>
-            <td>Pitty</td>
-        </tr>
-        <tr>
-            <td>Emboscada</td>
-            <td>Pitty</td>
-        </tr>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Música</th>
+                <th>Banda</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>1</th>
+                <td>Pulsos</td>
+                <td rowspan="4">Pitty</td>
+            </tr>
+            <tr>
+                <th>2</th>
+                <td>Admirável chip novo</td>
+                <!-- <td>Pitty</td> -->
+            </tr>
+            <tr>
+                <th>3</th>
+                <td>Temporal</td>
+            </tr>
+            <tr>
+                <th>4</th>
+                <td>Emboscada</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Todos os direitos reservados &copy;</td>
+            </tr>
+        </tfoot>
         <caption>Lista de músicas que sei o nome</caption>
     </table>
 </body>
+
 </html>
