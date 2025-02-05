@@ -1,8 +1,8 @@
-table{
+/* table{
     border-style: solid;
     border-width: 3px;
     border-color: darkslategray;
-    border-collapse: collapse; /*"junta" as linhas da borda*/
+    border-collapse: collapse; /*"junta" as linhas da borda
 }
 td, th{
     border-style: solid;
@@ -11,4 +11,8 @@ td, th{
 }
 th{
     border-style: double;
+} */
+
+.table-group-divider{
+    border-top-color: rgb(21, 253, 145);
 }
